@@ -1,5 +1,5 @@
 FROM smsimoes/clean-debian-image:latest
-MAINTAINER "Miguel Simões <msimoes@gmail.com>"
+LABEL maintainer="Miguel Simões <msimoes@gmail.com>"
 #
 # Ensure that the machine is always built with the most recent versions
 # and removing all non required artifacts to minimize the image size
